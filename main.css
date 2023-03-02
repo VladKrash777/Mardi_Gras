@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+header {
+  background-color: #8cbf3f;
+  height: 6vh;
+}
+
+.openSectionDiv .secondDiv {
+  border: 1px solid black;
+  width: 800px;
+  height: 250px;
+  text-align: center;
+  background-color: black;
+}
+.openSectionDiv .secondDiv h1 {
+  color: #f2cc0f;
+  font-size: 4em;
+  font-family: pattaya;
+}
+.openSectionDiv .secondDiv .secondDivText {
+  color: white;
+  font-size: 1em;
+  font-family: roboto;
+}
+
+.center {
+  background-color: #fff;
+}/*# sourceMappingURL=main.css.map */

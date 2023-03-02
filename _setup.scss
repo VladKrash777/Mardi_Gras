@@ -4,9 +4,9 @@ $yellowColor: #f2cc0f;
 $greenColor: #8cbf3f;
 $purpleColor: #9453a6;
 
-$fontFamelyHead1: pattaya;
-$fontFamelyHead2: "Henny penny";
-$fontFamelyText: roboto;
+$fontFamily1: pattaya;
+$fontFamily2: "Henny penny";
+$fontFamilyText: roboto;
 
 $fontSize1: 1em;
 $fontSize2: 1.3em;
@@ -20,13 +20,17 @@ $fontSize9: 3.6em;
 $fontSize10: 4em;
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 .center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container-fluid {
+	padding: 0;
 }

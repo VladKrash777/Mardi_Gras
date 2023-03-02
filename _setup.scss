@@ -20,13 +20,17 @@ $fontSize9: 3.6em;
 $fontSize10: 4em;
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-fluid{
+    padding: 0;
 }

@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+#openScreenImg {
+  width: 100%;
+  z-index: 1;
+}
+
+.openScreenHeadline {
+  width: 300vw;
+  height: 150vh;
+  border: 1px solid #000;
+}
+.openScreenHeadline h2 {
+  color: #f2cc0f;
+}/*# sourceMappingURL=main.css.map */

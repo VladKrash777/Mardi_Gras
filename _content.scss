@@ -1,0 +1,14 @@
+#openScreenImg {
+	width: 100%;
+	z-index: 1;
+}
+
+.openScreenHeadline {
+	width: 300vw;
+	height: 150vh;
+	border: 1px solid #000;
+
+	h2 {
+		color: $yellowColor;
+	}
+}

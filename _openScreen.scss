@@ -1,0 +1,100 @@
+// #openScreenImg {
+// 	width: 100%;
+// 	z-index: 2;
+// }
+
+
+.sliderText {
+	position: absolute;
+	top: 8%;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	z-index: 1;
+	color: $whiteColor;
+	font-family: $fontFamily1;
+
+	h1 {
+		font-size: 13em;
+		text-shadow: 3px 3px 3px rgb(36, 2, 54), 0 0 2em rgb(36, 2, 54);
+	}
+
+	h2 {
+		position: relative;
+		text-shadow: 3px 3px 3px rgb(0, 0, 0), 0 0 0.1em black;
+		// top: 500px;
+
+		font-family: $fontFamilyText;
+	}
+}
+
+.sliderText2 {
+	position: absolute;
+	top: 8%;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	z-index: 1;
+	color: $whiteColor;
+	font-family: $fontFamily1;
+
+	h1 {
+		font-size: 13em;
+		text-shadow: 3px 3px 3px rgb(0, 0, 0), 0 0 0.1em black;
+	}
+
+	h2 {
+
+		font-family: $fontFamilyText;
+		color: $whiteColor;
+		text-shadow: 6px 6px 6px rgb(0, 0, 0), 0 0 0.1em black;
+		position: relative;
+		// top: 550px;
+		
+	}
+}
+
+
+
+.sliderText3 {
+	position: absolute;
+	top: 8%;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	z-index: 1;
+	color: $whiteColor;
+	font-family: $fontFamily1;
+
+	h1 {
+		font-size: 13em;
+		text-shadow: 3px 3px 3px rgb(0, 0, 0), 0 0 0.1em black;
+	}
+
+	h2 {
+		font-family: $fontFamilyText;
+		text-shadow: 3px 3px 3px rgb(0, 0, 0), 0 0 0.1em black;
+	}
+}
+
+.sliderText4 {
+	position: absolute;
+	top: 8%;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	z-index: 1;
+	color: $whiteColor;
+	font-family: $fontFamily1;
+
+	h1 {
+		font-size: 13em;
+		text-shadow: 3px 3px 3px rgb(0, 0, 0), 0 0 0.1em black;
+	}
+
+	h2 {
+		font-family: $fontFamilyText;
+		font-size: 1.5em;
+		text-shadow: 3px 3px 3px rgb(0, 0, 0), 0 0 0.1em black;
+	}
+}

@@ -1,5 +1,11 @@
-header {
-	background-color: $greenColor;
-	height: 6vh;
+#navbarNavAltMarkup {
+	display: flex;
+	justify-content: space-evenly;
 
+	.nav-link {
+		font-size: 1.7em;
+		color: $whiteColor;
+		font-family: $fontFamilyText;
+	}
 }
+

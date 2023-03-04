@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Henny+Penny|Pattaya|Roboto&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -10,48 +11,92 @@
   align-items: center;
 }
 
-.container-fluid {
-  padding: 0;
+#navbarNavAltMarkup {
+  display: flex;
+  justify-content: space-evenly;
 }
-
-<<<<<<< HEAD
-header {
-  background-color: #8cbf3f;
-  height: 6vh;
-}
-
-.openSectionDiv .secondDiv {
-  border: 1px solid black;
-  width: 800px;
-  height: 250px;
-  text-align: center;
-  background-color: black;
-}
-.openSectionDiv .secondDiv h1 {
-  color: #f2cc0f;
-  font-size: 4em;
-  font-family: pattaya;
-}
-.openSectionDiv .secondDiv .secondDivText {
-  color: white;
-  font-size: 1em;
+#navbarNavAltMarkup .nav-link {
+  font-size: 1.7em;
+  color: #f2f2f2;
   font-family: roboto;
 }
 
-.center {
-  background-color: #fff;
-=======
-#openScreenImg {
-  width: 100%;
+.sliderText {
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
   z-index: 1;
+  color: #f2f2f2;
+  font-family: pattaya;
+}
+.sliderText h1 {
+  font-size: 13em;
+  text-shadow: 3px 3px 3px rgb(36, 2, 54), 0 0 2em rgb(36, 2, 54);
+}
+.sliderText h2 {
+  position: relative;
+  text-shadow: 3px 3px 3px rgb(0, 0, 0), 0 0 0.1em black;
+  font-family: roboto;
 }
 
-.openScreenHeadline {
-  width: 300vw;
-  height: 150vh;
-  border: 1px solid #000;
+.sliderText2 {
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  z-index: 1;
+  color: #f2f2f2;
+  font-family: pattaya;
 }
-.openScreenHeadline h2 {
-  color: #f2cc0f;
->>>>>>> 973f068fac6c1a367364f1cf31bdc6547b5e5abf
+.sliderText2 h1 {
+  font-size: 13em;
+  text-shadow: 3px 3px 3px rgb(0, 0, 0), 0 0 0.1em black;
+}
+.sliderText2 h2 {
+  font-family: roboto;
+  color: #f2f2f2;
+  text-shadow: 6px 6px 6px rgb(0, 0, 0), 0 0 0.1em black;
+  position: relative;
+}
+
+.sliderText3 {
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  z-index: 1;
+  color: #f2f2f2;
+  font-family: pattaya;
+}
+.sliderText3 h1 {
+  font-size: 13em;
+  text-shadow: 3px 3px 3px rgb(0, 0, 0), 0 0 0.1em black;
+}
+.sliderText3 h2 {
+  font-family: roboto;
+  text-shadow: 3px 3px 3px rgb(0, 0, 0), 0 0 0.1em black;
+}
+
+.sliderText4 {
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  z-index: 1;
+  color: #f2f2f2;
+  font-family: pattaya;
+}
+.sliderText4 h1 {
+  font-size: 13em;
+  text-shadow: 3px 3px 3px rgb(0, 0, 0), 0 0 0.1em black;
+}
+.sliderText4 h2 {
+  font-family: roboto;
+  font-size: 1.5em;
+  text-shadow: 3px 3px 3px rgb(0, 0, 0), 0 0 0.1em black;
 }/*# sourceMappingURL=main.css.map */

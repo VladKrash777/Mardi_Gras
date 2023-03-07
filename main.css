@@ -113,6 +113,8 @@ header {
 }
 #mayorText h3 {
   font-family: pattaya;
+  color: #9453a6;
+  text-shadow: 5px 5px 7px rgba(26, 0, 39, 0.171);
 }
 #mayorText a {
   text-decoration: none;
@@ -131,7 +133,7 @@ header {
 #id_providers1 {
   width: 100%;
   height: 100%;
-  background-color: black;
+  background-color: #e2f7de;
   font-family: roboto;
   align-items: center;
 }
@@ -142,6 +144,56 @@ header {
   display: flex;
   justify-content: end;
   color: #9453a6;
+}
+
+.col {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+
+/*
+    display: flex;
+    justify-content: center;
+    align-items: center;
+*/
+.row {
+  margin-top: 50px;
+}
+
+.row > .col > .card {
+  margin: 0 auto;
+  width: 100%;
+  padding: 10px 20px;
+  max-width: 350px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.card-body {
+  min-height: 240px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-body a {
+  text-decoration: none;
+  color: rgb(255, 255, 255) !important;
+  font-family: roboto !important;
+  font-size: 13px !important;
+  padding: 5px;
+  background: #8cbf3f;
+  border-radius: 7px;
+}
+
+.card-img-top {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 50px;
+}
+
+.col {
+  padding-bottom: 35px;
+  padding-top: 35px;
 }
 
 .aboutMardi {
@@ -172,6 +224,16 @@ header {
   font-size: 1em;
 }
 
+/*
+TODO: input to media
+col-12
+
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+*/
 html {
   box-sizing: border-box;
 }
@@ -368,4 +430,8 @@ main .faqH1 {
 .md-form label {
   color: #f5db85;
   font-family: roboto;
+}
+
+.bg-dark {
+  background-color: azure !important;
 }/*# sourceMappingURL=main.css.map */

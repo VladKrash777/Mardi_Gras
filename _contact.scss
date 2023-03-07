@@ -1,0 +1,44 @@
+.contact_main {
+	background-color: $purpleColor;
+	background-image: url(/assets/img/Contact/1.jpg);
+	background-repeat: no-repeat;
+	
+}
+
+.card_contact {
+	width: 500px;
+	position: relative;
+	top: 200px;
+	margin: 0 auto;
+	background-color: #1f073f86;
+	filter: drop-shadow(10px 5px 20px);
+	border-radius: 50px 50px 50px 50px;
+	font-family: $fontFamilyText;
+}
+
+.white-text {
+	text-align: center;
+}
+
+.md-form {
+	padding-bottom: 20px;
+	// padding-top: 15px;
+}
+
+.btn-warning {
+	margin-bottom: 25px;
+	color: $yellowColor;
+}
+
+.white-text {
+	color: #fac800;
+	font-family: $fontFamily1;
+	font-size: 3em;
+}
+
+.md-form {
+	label {
+		color:#f5db85;
+		font-family: $fontFamilyText;
+	}
+}

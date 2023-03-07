@@ -1,11 +1,6 @@
-#navbarNavAltMarkup {
-	display: flex;
-	justify-content: space-evenly;
-
-	.nav-link {
-		font-size: 1.7em;
-		color: $whiteColor;
-		font-family: $fontFamilyText;
-	}
+header {
+	font-size: 1.3em;
 }
-
+#navbarNav {
+	justify-content: center;
+}

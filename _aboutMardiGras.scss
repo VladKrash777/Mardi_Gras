@@ -1,0 +1,29 @@
+.aboutMardi {
+	text-align: center;
+	line-height: 1.5;
+	font-family: $fontFamilyText;
+	.first {
+		font-weight:bolder
+		
+	}
+	.aboutMardiImg {
+		width: 100%;
+		padding: 25px 25px;
+	}
+
+	span {
+		font-weight: bolder;
+		font-size: 1.5em;
+		color: $greenColor;
+	}
+
+	h1 {
+		font-family: $fontFamily1;
+		color: $purpleColor;
+		margin-top: 50px;
+	}
+}
+#laToyaSpan {
+	color: $blackColor;
+	font-size: 1em;
+}

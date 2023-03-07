@@ -1,0 +1,22 @@
+#id_providers1 {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	font-family: $fontFamilyText;
+	// display: flex;
+
+	align-items: center;
+
+	h5 {
+		font-weight: bold;
+	}
+
+	a {
+		display: flex;
+		justify-content: end;
+		color: $purpleColor;
+
+	}
+}
+
+.col {}

@@ -10,42 +10,48 @@
 	<link rel="stylesheet" href="main.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-
-	<link rel="stylesheet" href="/css/style.css">
-
 	<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
 		</script>
-
-
 	<script src="/js/script.js" type="module"></script>
+
+
 </head>
 
 <body>
 
 	<header>
-		<nav id="navId" class="navbar navbar-expand-md bg-body-tertiary bg-dark" data-bs-theme="dark">
-			<div class="container-fluid">
-				<!-- <a class="navbar-brand"  href="#">Navbar</a> -->
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-					aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		<nav id="navId" class="navbar navbar-expand-lg bg-body-d ">
+			<div class="container-fluid ">
+				<a class="navbar-brand" href="#"><img src="/assets/logo/logo.png" alt="" width="70" height="70"></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-				<div class="collapse navbar-collapse nav justify-content-center" id="navbarNavAltMarkup">
-					<div class="nav">
-						<a class="nav-link active" aria-current="page" href="#">Home</a>
-						<a class="nav-link" href="#">About</a>
-						<a class="nav-link" href="#">Media</a>
-						<a class="nav-link" href="#">Attractions</a>
-						<a class="nav-link" href="#">Contact</a>
-
-					</div>
+				<div class="collapse navbar-collapse " id="navbarNav">
+					<ul class="navbar-nav ">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/aboutMardiGras.html" target="_blank">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/media.html" target="_blank">Media</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/faq.html" target="_blank">FAQ</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/contact.html" target="_blank">Contact</a>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</nav>
 
 	</header>
-
+	
 
 
 
@@ -105,56 +111,150 @@
 			<span class="visually-hidden">Next</span>
 		</button>
 	</div>
-	<div id="id_abutUs" class="about_us container-fluid d-flex">
 
-		<div class="col-2 center d-none d-xl-flex">
-			<a href="https://www.marriott.com/hotels/travel/msyis-sheraton-new-orleans-hotel/"><img class="sheratonBanner"
-					src="images/Banners/Sheraton.jpg" alt="" /></a>
-		</div>
+	<!------------------------------------ About Mayor --------------------------------------------->
 
+	<div id="aboutUs" class="about_us container-fluid d-flex">
 
-		<!-- About Mayor -->
-
-
-		<div id="aboutMayor" class="container">
-			<section>
-				<img id="mayorImg" src="/assets/img/Mayor.jpg" alt="">
-				<div class="mayorText text-center">
-					<h3>As Mayor of the great City of New Orleans, I invite you to visit our city to experience the
+		<div class="row">
+			<div id="mayorImg" class="col-sm ">
+				<img id="laToya" src="/assets/img/mayor.png" class="img-fluid" alt="...">
+			</div>
+			<div id="mayorText" class="col-lg">
+				<section>
+					<h3 class="display-5">Mayor of great city New Orleans about Mardi Gras</h3>
+					<p>I invite you to visit our city to experience the
 						excitement of Mardi Gras!
 
 						Mayor of New Orleans
 						The Carnival season officially begins each year on Jan. 6 -- the Feast of the Epiphany, also called
-						Twelfth Night or Kings' Day. Traditional balls are held in the weeks leading up to the big event.
+						Twelfth Night or Kings' Day.Traditional balls are held in the weeks leading up to the big event...
+						<a href="/aboutMardiGras.html" target="_blank">Click Here</a>
+					</p>
+				</section>
+			</div>
+		</div>
+	</div>
 
-						Spectacular parades with colorful, creative floats start rolling before Mardi Gras Day. Our private
-						Carnival clubs, called krewes, take on royalty status and throw beads, doubloons and toys to parade
-						goers. Visitors quickly learn to say, "Throw me something mister!"
+	<!-------------------------------------------------------------------------------------------------Providers---------------------------------------------------------------------------------------------->
+	<div id="id_providers1" class="container-fluid  col-sm-6 ">
 
-						The culmination of Mardi Gras in New Orleans begins early on Mardi Gras Day when the Zulu Social Aid &
-						Pleasure Club and the Rex Organization parade through the city. Music, food and elaborate costumes add
-						to the fun-filled day of excitement for revelers of all ages.
-
-						New Orleans, with its unmatched culture and world-famous music and cuisine, is an exciting place to be
-						at any time of the year. We invite everyone to experience Mardi Gras at least once in their lifetime.
-						Make your plans now to be a part of this great tradition and see firsthand why we say, "Laissez les
-						bon temps rouler!"
-
-						Sincerely,
-
-						LaToya Cantrell
-						Mayor of New Orleans
-					</h3>
+		<div class="row align-items-start ">
+			<div class="col">
+				<div class="card">
+					<img src="/assets/img/Providers/ace.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Ace Hotel NOLA </h5>
+						<p class="card-text">Home to well-appointed rooms, event spaces, a restaurant, rooftop bar and all-day
+							café. Well-appointed rooms with breathing room. Custom furnishings, original art and more. <a
+								href="https://acehotel.com/new-orleans/?gclid=EAIaIQobChMI4Iu63rHF_QIVCuR3Ch38bQLPEAAYAiAAEgJMPPD_BwE"
+								target="_blank">Click
+								here</a>
+						</p>
+					</div>
 				</div>
-			</section>
-
+			</div>
+			<div class="col">
+				<div class="card">
+					<img src="/assets/img/Providers/hauntedMuseum.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Haunted museum</h5>
+						<p class="card-text">Haunted museum & Voodoo spirit shop in a documented 200 year old French Quarter
+							Haunted House! Museum tours by day, Ghost Hunts by night! <a href="https://thehauntedmuseum.com/"
+								target="_blank">Click here</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<img src="/assets/img/Providers/lousianeChildrenMuseum.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Louisiana Children's Museum</h5>
+						<p class="card-text">When you make a child’s potential visible, wonderful things happen.
+							<a href="https://lcm.org/" target="_blank">Click
+								here</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<img src="/assets/img/Providers/museumOfdeath.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Museum of Death </h5>
+						<p class="card-text">The new museum branch will have around 12,000 square metres of space, which will
+							allow more of the collection to be displayed.
+							<a href="http://www.museumofdeath.net/" target="_blank">Click here</a>
+						</p>
+					</div>
+				</div>
+			</div>
 		</div>
 
+		<div class="row align-items-end">
+			<div class="col">
+				<div class="card">
+					<img src="/assets/img/Providers/walkOns.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title"> Walk-On's Sports Bistreaux</h5>
+						<p class="card-text">Grab a bite with your family at Walk On's Restaurant and Sports Bistreaux. Check
+							out our menu of burgers, sandwiches, salads & Cajun cuisine.
+							<a href="https://walk-ons.com/" target="_blank">Click here</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<img src="/assets/img/Providers/sheraton.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Sheraton New Orleans Hotel</h5>
+						<p class="card-text">Directly across from the famed French Quarter and steps from the CBD, Sheraton
+							New Orleans Hotel welcomes you to Louisiana with pet-friendly rooms, premium amenities and 105,000
+							square feet of flexible function venues.
+							<a href="https://www.marriott.com/en-us/hotels/msyis-sheraton-new-orleans-hotel/overview/"
+								target="_blank">Click here</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<img src="/assets/img/Providers/ritsz.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">The Ritz-Carlton, New Orleans</h5>
+						<p class="card-text">
+							Within a historic beaux arts building in New Orleans French Quarter ,a hotel offers luxury with a
+							local touch.
+							<a href="https://www.ritzcarlton.com/en/hotels/new-orleans" target="_blank">Click here</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<img src="/assets/img/Providers/premiumParking.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Premium Parking - P402</h5>
+						<p class="card-text">The leader in gateless digital parking.
+							<a href="https://www.premiumparking.com/P402" target="_blank">Click here</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
 
 
-		<footer>
+	<!-------------------------------------------------------------------------------------------------FAQ---------------------------------------------------------------------------------------------->
 
-		</footer>
+
+	<footer class="border-top pt-3 bg-dark center">
+
+		<p class="text-light">Created by Vladlen Krash &copy;</p>
+	</footer>
 
 </body>
 

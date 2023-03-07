@@ -11,14 +11,12 @@
   align-items: center;
 }
 
-#navbarNavAltMarkup {
-  display: flex;
-  justify-content: space-evenly;
+header {
+  font-size: 1.3em;
 }
-#navbarNavAltMarkup .nav-link {
-  font-size: 1.7em;
-  color: #f2f2f2;
-  font-family: roboto;
+
+#navbarNav {
+  justify-content: center;
 }
 
 .sliderText {
@@ -99,4 +97,275 @@
   font-family: roboto;
   font-size: 1.5em;
   text-shadow: 3px 3px 3px rgb(0, 0, 0), 0 0 0.1em black;
+}
+
+#aboutUs {
+  width: 100%;
+  height: 50vh;
+}
+
+#mayorText {
+  display: flex;
+  align-items: center;
+  margin-right: 500px;
+  font-family: roboto;
+  font-size: 1.3em;
+}
+#mayorText h3 {
+  font-family: pattaya;
+}
+#mayorText a {
+  text-decoration: none;
+  color: #9453a6;
+}
+
+#mayorImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#mayorImg #laToya {
+  width: 465.5px;
+}
+
+#id_providers1 {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  font-family: roboto;
+  align-items: center;
+}
+#id_providers1 h5 {
+  font-weight: bold;
+}
+#id_providers1 a {
+  display: flex;
+  justify-content: end;
+  color: #9453a6;
+}
+
+.aboutMardi {
+  text-align: center;
+  line-height: 1.5;
+  font-family: roboto;
+}
+.aboutMardi .first {
+  font-weight: bolder;
+}
+.aboutMardi .aboutMardiImg {
+  width: 100%;
+  padding: 25px 25px;
+}
+.aboutMardi span {
+  font-weight: bolder;
+  font-size: 1.5em;
+  color: #8cbf3f;
+}
+.aboutMardi h1 {
+  font-family: pattaya;
+  color: #9453a6;
+  margin-top: 50px;
+}
+
+#laToyaSpan {
+  color: #0d0d0d;
+  font-size: 1em;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.preview {
+  width: 100%;
+}
+
+.row #h1gallery {
+  text-align: center;
+  font-family: "Henny penny";
+  color: #f2cc0f;
+  font-size: 4em;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding: 10px 62px 0px 62px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  padding: 0 0 0 0;
+  width: 80%;
+  max-width: 1200px;
+}
+
+.slide {
+  display: none;
+}
+
+.image-slide {
+  width: 100%;
+}
+
+.modal-preview {
+  width: 100%;
+}
+
+.dots {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+img.preview,
+img.modal-preview {
+  opacity: 0.6;
+}
+
+img.active,
+.preview:hover,
+.modal-preview:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.previous,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -moz-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.previous:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+iframe {
+  margin-left: 30px;
+  margin-top: 100px;
+}
+
+main {
+  height: 87vh;
+  font-family: roboto;
+}
+main .faqH1 {
+  text-align: center;
+  font-family: pattaya;
+  color: #9453a6;
+  font-size: 3.5em;
+}
+
+.faqH1 {
+  position: absolute;
+  top: 150px;
+  bottom: auto;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#accordionExample {
+  margin-top: 70px;
+}
+
+.contact_main {
+  background-color: #9453a6;
+  background-image: url(/assets/img/Contact/1.jpg);
+  background-repeat: no-repeat;
+}
+
+.card_contact {
+  width: 500px;
+  position: relative;
+  top: 200px;
+  margin: 0 auto;
+  background-color: rgba(31, 7, 63, 0.5254901961);
+  filter: drop-shadow(10px 5px 20px);
+  border-radius: 50px 50px 50px 50px;
+  font-family: roboto;
+}
+
+.white-text {
+  text-align: center;
+}
+
+.md-form {
+  padding-bottom: 20px;
+}
+
+.btn-warning {
+  margin-bottom: 25px;
+  color: #f2cc0f;
+}
+
+.white-text {
+  color: #fac800;
+  font-family: pattaya;
+  font-size: 3em;
+}
+
+.md-form label {
+  color: #f5db85;
+  font-family: roboto;
 }/*# sourceMappingURL=main.css.map */

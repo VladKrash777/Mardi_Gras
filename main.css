@@ -19,6 +19,25 @@ header {
   justify-content: center;
 }
 
+@media (min-width: 250px) and (max-width: 550px) {
+  .row {
+    display: flex;
+    align-items: center;
+  }
+  .row:nth-child(odd) {
+    flex-direction: column;
+  }
+  .row:nth-child(even) {
+    flex-direction: column-reverse;
+  }
+  .col-8 {
+    width: 100% !important;
+    margin-top: 30px !important;
+  }
+  .col-4 {
+    width: 100% !important;
+  }
+}
 .sliderText {
   position: absolute;
   top: 8%;
@@ -102,6 +121,8 @@ header {
 #aboutUs {
   width: 100%;
   height: 50vh;
+  display: flex;
+  justify-content: space-around;
 }
 
 #mayorText {
@@ -126,10 +147,15 @@ header {
   justify-content: center;
   align-items: center;
 }
-#mayorImg #laToya {
-  width: 465.5px;
+#mayorImg .row {
+  width: 360px;
 }
 
+@media (min-width: 250px) and (max-width: 550px) {
+  .row {
+    width: 100%;
+  }
+}
 #id_providers1 {
   width: 100%;
   height: 100%;
@@ -224,16 +250,43 @@ header {
   font-size: 1em;
 }
 
-/*
-TODO: input to media
-col-12
-
-display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.aboutMardiImg {
+  border-radius: 90px 0px 90px 0px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
-*/
+
+.aboutMardi .aboutMardiImg {
+  padding: 7px 7px;
+}
+
+.row {
+  margin-bottom: 50px;
+}
+
+.col-4 {
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 250px) and (max-width: 550px) {
+  .row {
+    display: flex;
+    align-items: center;
+  }
+  .row:nth-child(odd) {
+    flex-direction: column;
+  }
+  .row:nth-child(even) {
+    flex-direction: column-reverse;
+  }
+  .col-8 {
+    width: 100% !important;
+    margin-top: 30px !important;
+  }
+  .col-4 {
+    width: 100% !important;
+  }
+}
 html {
   box-sizing: border-box;
 }
@@ -248,10 +301,10 @@ html {
   width: 100%;
 }
 
-.row #h1gallery {
+#h1gallery {
   text-align: center;
   font-family: "Henny penny";
-  color: #f2cc0f;
+  color: #9453a6;
   font-size: 4em;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -359,14 +412,47 @@ img.hover-shadow {
 
 .previous:hover,
 .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(11, 11, 11, 0.988);
 }
 
-iframe {
-  margin-left: 30px;
-  margin-top: 100px;
+.hover-shadow {
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_media {
+  background-color: beige;
+  padding: 50px 50px;
+}
+
+#media_video > .col > iframe {
+  border-radius: 20px 20px;
+}
+
+footer {
+  width: 100%;
+}
+
+/********************************************************************* @Media ******************/
+@media (min-width: 250px) and (max-width: 550px) {
+  .row {
+    display: flex;
+    width: 100%;
+  }
+  .container_media {
+    width: 100%;
+  }
+  #media_video > .col > iframe {
+    max-width: 300px;
+  }
+}
 main {
   height: 87vh;
   font-family: roboto;
@@ -391,16 +477,21 @@ main .faqH1 {
   margin-top: 70px;
 }
 
-.contact_main {
+#contact_main_id {
+  height: 100vh;
   background-color: #9453a6;
   background-image: url(/assets/img/Contact/1.jpg);
   background-repeat: no-repeat;
 }
 
+#contact_iframe {
+  margin-bottom: 20px;
+  border-radius: 25px;
+}
+
 .card_contact {
-  width: 500px;
+  width: 800px;
   position: relative;
-  top: 200px;
   margin: 0 auto;
   background-color: rgba(31, 7, 63, 0.5254901961);
   filter: drop-shadow(10px 5px 20px);
@@ -412,12 +503,8 @@ main .faqH1 {
   text-align: center;
 }
 
-.md-form {
-  padding-bottom: 20px;
-}
-
 .btn-warning {
-  margin-bottom: 25px;
+  margin-right: 80px;
   color: #f2cc0f;
 }
 
@@ -427,11 +514,34 @@ main .faqH1 {
   font-size: 3em;
 }
 
-.md-form label {
-  color: #f5db85;
-  font-family: roboto;
+.md-form {
+  width: 300px;
+  padding-bottom: 20px;
 }
 
+.validation {
+  display: none;
+  color: red;
+}
+
+/* ***************************************************************@Media *************************************************/
+@media (min-width: 250px) and (max-width: 550px) {
+  .card_contact {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 550px;
+  }
+  .row {
+    display: flex;
+    align-items: center;
+  }
+  #contact_iframe {
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+  }
+}
 .bg-dark {
   background-color: azure !important;
 }/*# sourceMappingURL=main.css.map */

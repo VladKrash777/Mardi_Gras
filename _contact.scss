@@ -1,14 +1,25 @@
-.contact_main {
+#contact_main_id {
+	height: 100vh;
 	background-color: $purpleColor;
 	background-image: url(/assets/img/Contact/1.jpg);
 	background-repeat: no-repeat;
-	
 }
 
+
+
+#contact_iframe {
+	margin-bottom: 20px;
+	border-radius: 25px;
+
+}
+
+
+
+
+
 .card_contact {
-	width: 500px;
+	width: 800px;
 	position: relative;
-	top: 200px;
 	margin: 0 auto;
 	background-color: #1f073f86;
 	filter: drop-shadow(10px 5px 20px);
@@ -20,13 +31,10 @@
 	text-align: center;
 }
 
-.md-form {
-	padding-bottom: 20px;
-	// padding-top: 15px;
-}
 
 .btn-warning {
-	margin-bottom: 25px;
+	// margin-bottom: 25px;
+	margin-right: 80px;
 	color: $yellowColor;
 }
 
@@ -37,8 +45,39 @@
 }
 
 .md-form {
-	label {
-		color:#f5db85;
-		font-family: $fontFamilyText;
+	width: 300px;
+	padding-bottom: 20px;
+}
+
+
+.validation {
+	display: none;
+	color: red;
+}
+
+/* ***************************************************************@Media *************************************************/
+
+
+@media (min-width:250px) and (max-width:550px) {
+	.card_contact{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		
+		max-width: 550px;
+	}
+	.row {
+		display: flex;
+		align-items: center;	
+	}
+
+	#contact_iframe {
+		display: flex;
+		align-items: center;	
+		max-width: 300px;
+	}
+
+	.md-form{
+		
 	}
 }

@@ -10,6 +10,7 @@ header {
 
 
 
+
 	.row {
 		display: flex;
 		align-items: center;
@@ -31,5 +32,32 @@ header {
 	.col-4 {
 		width: 100% !important;
 	}
+}
 
+
+#carouselBackground {
+	height: 30vh;
+	background-color: $purpleColor;
+	background-image: url(/assets/img/Contact/1.jpg);
+	background-repeat: round;
+}
+
+
+@media (max-width:450px){
+
+	#carouselExampleAutoplaying {
+		display: none !important;
+	}
+	#carouselBackground {
+		display: block;
+	}
+}
+
+@media (min-width:451px){
+	#carouselExampleAutoplaying {
+		display: block !important;
+	}
+	#carouselBackground {
+		display: none;
+	}
 }

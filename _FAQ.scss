@@ -10,12 +10,13 @@ main {
 	}
 }
 
+#faq-h1-id{
+	font-size: 4vw;
+	margin-top: 10px;
+}
 
 .faqH1{
 	position: absolute;
-			// top: 100px;
-			// left: 100px;
-			top:150px;
 			bottom: auto;
 			left: 0;
 			right: 0;
@@ -26,5 +27,6 @@ main {
 	margin-top: 70px;
 }
 
+/*********************************************************************************** @Media **************************************************************/
 
-
+@media (min-width:250px) and (max-width:550px) {}

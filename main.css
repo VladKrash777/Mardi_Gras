@@ -38,6 +38,29 @@ header {
     width: 100% !important;
   }
 }
+#carouselBackground {
+  height: 30vh;
+  background-color: #9453a6;
+  background-image: url(/assets/img/Contact/1.jpg);
+  background-repeat: round;
+}
+
+@media (max-width: 450px) {
+  #carouselExampleAutoplaying {
+    display: none !important;
+  }
+  #carouselBackground {
+    display: block;
+  }
+}
+@media (min-width: 451px) {
+  #carouselExampleAutoplaying {
+    display: block !important;
+  }
+  #carouselBackground {
+    display: none;
+  }
+}
 .sliderText {
   position: absolute;
   top: 8%;
@@ -128,9 +151,9 @@ header {
 #mayorText {
   display: flex;
   align-items: center;
-  margin-right: 500px;
+  padding: 20px 40px;
   font-family: roboto;
-  font-size: 1.3em;
+  font-size: 2em;
 }
 #mayorText h3 {
   font-family: pattaya;
@@ -142,18 +165,35 @@ header {
   color: #9453a6;
 }
 
-#mayorImg {
+.row {
+  background-size: 400px;
   display: flex;
   justify-content: center;
-  align-items: center;
-}
-#mayorImg .row {
-  width: 360px;
+  align-items: flex-start;
 }
 
+@media (max-width: 450px) {
+  #mayorText {
+    font-size: 18px;
+  }
+}
 @media (min-width: 250px) and (max-width: 550px) {
   .row {
-    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .row:nth-child(odd) {
+    flex-direction: column;
+  }
+  .row:nth-child(even) {
+    flex-direction: column-reverse;
+  }
+  .col-8 {
+    width: 100% !important;
+    margin-top: 30px !important;
+  }
+  .col-4 {
+    width: 100% !important;
   }
 }
 #id_providers1 {
@@ -464,9 +504,13 @@ main .faqH1 {
   font-size: 3.5em;
 }
 
+#faq-h1-id {
+  font-size: 4vw;
+  margin-top: 10px;
+}
+
 .faqH1 {
   position: absolute;
-  top: 150px;
   bottom: auto;
   left: 0;
   right: 0;
@@ -477,6 +521,7 @@ main .faqH1 {
   margin-top: 70px;
 }
 
+/*********************************************************************************** @Media **************************************************************/
 #contact_main_id {
   height: 100vh;
   background-color: #9453a6;
@@ -504,7 +549,6 @@ main .faqH1 {
 }
 
 .btn-warning {
-  margin-right: 80px;
   color: #f2cc0f;
 }
 
@@ -526,6 +570,9 @@ main .faqH1 {
 
 /* ***************************************************************@Media *************************************************/
 @media (min-width: 250px) and (max-width: 550px) {
+  #contact_main_id {
+    width: 100%;
+  }
   .card_contact {
     display: flex;
     flex-direction: column;
@@ -541,7 +588,64 @@ main .faqH1 {
     align-items: center;
     max-width: 300px;
   }
+  .md-form {
+    align-items: center;
+  }
 }
+.form-group {
+  position: relative;
+  padding: 20px 0;
+  width: 300px;
+  max-width: 100%;
+}
+
+.form-group input {
+  border: none;
+  border-bottom: 1px solid #9e9e9e;
+  color: #333;
+  display: block;
+  font-size: 16px;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.form-group label {
+  color: #9e9e9e;
+  font-size: 16px;
+  font-weight: 100;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.form-group label {
+  color: #9e9e9e;
+  font-size: 16px;
+  font-weight: 100;
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  transform: translateY(30px);
+}
+
+.form-group input:valid,
+.form-group input:focus {
+  border-bottom-color: #ee6e73;
+  outline: none;
+}
+
+.form-group input:valid + label,
+.form-group input:focus + label {
+  color: #ee6e73;
+  font-size: 14px;
+  transform: translateY(0);
+}
+
+.form-group label {
+  transition: all 0.2s ease-in-out;
+}
+
 .bg-dark {
   background-color: azure !important;
 }/*# sourceMappingURL=main.css.map */

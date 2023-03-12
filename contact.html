@@ -1,126 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="/assets/logo/logo.png"
+      type="image/x-icon"
+    />
+    <title>Mardi Gras</title>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/validation.js"></script>
+  </head>
 
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" href="/assets/logo/logo.png" type="image/x-icon">
-	<title>Mardi Gras</title>
-	<link rel="stylesheet" href="main.css">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-	<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
-		</script>
-	<script src="/js/validation.js"></script>
-</head>
+  <body>
+    <!------------------------------------ Header --------------------------------------------->
+    <header>
+      <nav id="navId" class="navbar navbar-expand-lg bg-body-d">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="/assets/logo/logo.png" alt="" width="70" height="70"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/aboutMardiGras.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/media.html">Media</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/faq.html">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-<body>
+    <!------------------------------------ Main --------------------------------------------->
+    <main id="contact_main_id" class="contact_main">
+      <div class="card_contact">
+        <div class="header pt-3 peach-gradient">
+          <div class="row justify-content-center">
+            <h3 class="white-text mb-3 pt-3 font-weight-bold">Contact Us</h3>
+          </div>
+        </div>
 
-	<!------------------------------------ Header --------------------------------------------->
-	<header>
-		<nav id="navId" class="navbar navbar-expand-lg bg-body-d ">
-			<div class="container-fluid ">
-				<a class="navbar-brand" href="#"><img src="/assets/logo/logo.png" alt="" width="70" height="70"></a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse " id="navbarNav">
-					<ul class="navbar-nav ">
-						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="/index.html">Home</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="/aboutMardiGras.html">About</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="/media.html">Media</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="/faq.html">FAQ</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="/contact.html">Contact</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-	</header>
+        <div class="card-body col-12">
+          <div class="md-form">
+            <!-- <label for="Form-name3">Name:</label> -->
+            <input
+              type="text"
+              id="Form-name3"
+              class="form-control"
+              placeholder="Name"
+            />
+          </div>
+          <!-- <br> -->
+          <div class="md-form">
+            <!-- <label for="Form-lastName">Last Name:</label> -->
+            <input
+              type="text"
+              id="Form-lastName"
+              class="form-control"
+              placeholder="Last Name"
+            />
+          </div>
 
-	<!------------------------------------ Main --------------------------------------------->
-	<main id="contact_main_id" class="contact_main">
+          <!-- <br> -->
+          <div class="md-form">
+            <!-- <label for="Form-mail">Mail:</label> -->
+            <input
+              type="text"
+              id="Form-mail"
+              class="form-control"
+              placeholder="Mail"
+            />
+          </div>
 
-		<div class="card_contact">
-			<div class="header pt-3 peach-gradient">
-				<div class="row  justify-content-center">
-					<h3 class="white-text mb-3 pt-3 font-weight-bold">Contact Us</h3>
-				</div>
-			</div>
+          <p class="validation">Please insert correct email</p>
+          <!-- <br> -->
+          <div class="md-form">
+            <!-- <label for="message">Leave your message</label> -->
+            <textarea
+              type="text"
+              id="message"
+              name="message"
+              rows="2"
+              class="form-control md-textarea"
+              placeholder="Leave your message"
+            ></textarea>
+            <div class="form-group"></div>
 
-			<div class="card-body mx-4 mt-4">
+            <br />
+            <div class="row">
+              <div class="col-12">
+                <button
+                  onclick="validation()"
+                  type="button"
+                  class="btn btn-warning"
+                  style="min-width: 300px"
+                >
+                  Send
+                </button>
+              </div>
+            </div>
+          </div>
+          <br />
 
-				<div class="md-form">
-					<!-- <label for="Form-name3">Name:</label> -->
-					<input type="text" id="Form-name3" class="form-control" placeholder="Name">
-				</div>
-				<!-- <br> -->
-				<div class="md-form">
-					<!-- <label for="Form-lastName">Last Name:</label> -->
-					<input type="text" id="Form-lastName" class="form-control" placeholder="Last Name">
-				</div>
+          <iframe
+            id="contact_iframe"
+            width="750"
+            height="200"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+            id="gmap_canvas"
+            src="https://maps.google.com/maps?width=750&amp;height=200&amp;hl=en&amp;q=1300%20Perdido%20St,%20New%20Orleans,%20LA%2070112,%20United%20States%20New%20Haven+(New%20Orleans%20Municipality)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          ></iframe>
+        </div>
+      </div>
 
-				<!-- <br> -->
-				<div class="md-form">
-					<!-- <label for="Form-mail">Mail:</label> -->
-					<input type="text" id="Form-mail" class="form-control" placeholder="Mail">
-				</div>
+      <!-- <div class="form-group">
+			<input type="text" required />
+			 <label>Username</label>
+		</div> -->
+    </main>
 
-				<p class="validation">Please insert correct email</p>
-				<!-- <br> -->
-				<div class="md-form">
-					<!-- <label for="message">Leave your message</label> -->
-					<textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"
-						placeholder="Leave your message"></textarea>
-					<div class="form-group">
-					</div>
-				</div>
-				<br>
-
-				<div class="row  mb-4">
-					<div class="d-grid gap-2 col-6 mx-auto">
-						<button onclick="validation()" type="button" class="btn
-						btn-warning">Send
-						</button>
-					</div>
-
-				</div>
-
-				<iframe id="contact_iframe" width="750" height="200" frameborder="0" scrolling="no" marginheight="0"
-					marginwidth="0" id="gmap_canvas"
-					src="https://maps.google.com/maps?width=750&amp;height=200&amp;hl=en&amp;q=1300%20Perdido%20St,%20New%20Orleans,%20LA%2070112,%20United%20States%20New%20Haven+(New%20Orleans%20Municipality)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
-
-
-			</div>
-		</div>
-	</main>
-
-
-
-
-
-
-
-
-
-	<!------------------------------------ Footer --------------------------------------------->
-	<footer class="border-top pt-3 bg-white center">
-		<p class="text-dark">Created by Vladlen Krash &copy;</p>
-		<a class="navbar-brand" href="#"><img src="/assets/logo/BLACK Logo.png" alt="" width="100" height="100"></a>
-	</footer>
-</body>
-
-
+    <!------------------------------------ Footer --------------------------------------------->
+    <footer class="border-top pt-3 bg-white center">
+      <p class="text-dark">Created by Vladlen Krash &copy;</p>
+    </footer>
+  </body>
 </html>

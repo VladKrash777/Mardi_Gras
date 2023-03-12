@@ -1,261 +1,340 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="/assets/logo/logo.png"
+      type="image/x-icon"
+    />
+    <title>Mardi Gras</title>
+    <link rel="stylesheet" href="main.css" />
 
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" href="/assets/logo/logo.png" type="image/x-icon">
-	<title>Mardi Gras</title>
-	<link rel="stylesheet" href="main.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/script.js" type="module"></script>
+  </head>
 
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-	<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
-		</script>
-	<script src="/js/script.js" type="module"></script>
+  <body>
+    <header>
+      <nav id="navId" class="navbar navbar-expand-lg bg-body-d">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="/assets/logo/logo.png" alt="" width="70" height="70"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/aboutMardiGras.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/media.html">Media</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/faq.html">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 
+    <div id="carouselBackground"></div>
+    <div
+      id="carouselExampleAutoplaying"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/assets/img/1.jpg" class="d-block w-100" alt="..." />
+          <div class="sliderText">
+            <h1 class="display-1">Mardi Gras</h1>
+            <h2>
+              Mardi Gras is French for "Fat Tuesday", reflecting the practice of
+              the last night of eating rich, fatty foods before the ritual
+              Lenten sacrifices and fasting of the Lenten season.
+            </h2>
+          </div>
+        </div>
 
-</head>
+        <div class="carousel-item">
+          <img src="/assets/img/2.5.jpg" class="d-block w-100" alt="..." />
+          <div class="sliderText2">
+            <h1 class="display-1">Restaurants</h1>
+            <h2>
+              Feasting is a big part of Carnival celebrations—and we don't just
+              mean king cake! Before Lent, get your fill of fresh seafood,
+              po-boys, gumbo, jambalaya and other Cajun and Creole specialties.
+              It wouldn't be listed below if we didn't recommend it.
+            </h2>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/assets/img/3.jpg" class="d-block w-100" alt="..." />
+          <div class="sliderText3">
+            <h1 class="display-1">Hotels</h1>
+            <h2>
+              While you probably won't be spending much time in your hotel, you
+              will need a comfortable, safe place to rest up between parades.
+              Some of these properties are near the parade route, while others
+              are closer to the French Quarter fun. All come highly recommended
+              by the staff here at MardiGrasNewOrleans.com.
+            </h2>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/assets/img/4.jpg" class="d-block w-100" alt="..." />
+          <div class="sliderText4">
+            <h1 class="display-1">Attractions</h1>
+            <h2>
+              While you're in town for Mardi Gras, remember there's more to
+              Carnival than catching beads. Get caught up in the unique
+              traditions and history behind the "Greatest Free Show on Earth” at
+              these attractions, museums and restaurants. Try on authentic Mardi
+              Gras costumes, climb aboard a real float, and celebrate the
+              designers and artists who pull it all off year after year after
+              year.
+            </h2>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
-<body>
+    <!------------------------------------ About Mayor --------------------------------------------->
 
-	<header>
-		<nav id="navId" class="navbar navbar-expand-lg bg-body-d ">
-			<div class="container-fluid ">
-				<a class="navbar-brand" href="#"><img src="/assets/logo/logo.png" alt="" width="70" height="70"></a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse " id="navbarNav">
-					<ul class="navbar-nav ">
-						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="/index.html">Home</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="/aboutMardiGras.html">About</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="/media.html">Media</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="/faq.html">FAQ</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="/contact.html">Contact</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
+    <div id="aboutUs" class="about_us container-fluid">
+      <div class="row">
+        <div id="mayorText" class="col-lg">
+          <section>
+            <h3 class="display-5">
+              Mayor of great city New Orleans about Mardi Gras
+            </h3>
+            <p>
+              I invite you to visit our city to experience the excitement of
+              Mardi Gras! Mayor of New Orleans The Carnival season officially
+              begins each year on Jan. 6 -- the Feast of the Epiphany, also
+              called Twelfth Night or Kings' Day.Traditional balls are held in
+              the weeks leading up to the big event...
+            </p>
+            <a href="/aboutMardiGras.html">Click Here</a>
+          </section>
+        </div>
+      </div>
+    </div>
 
-	</header>
+    <!-------------------------------------------------------------------------------------------------Providers---------------------------------------------------------------------------------------------->
+    <div id="id_providers1" class="container-fluid col-sm-6">
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="card">
+            <img
+              src="/assets/img/Providers/ace.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Ace Hotel NOLA</h5>
+              <p class="card-text">
+                Home to well-appointed rooms, event spaces, a restaurant,
+                rooftop bar and all-day café. Well-appointed rooms with
+                breathing room. Custom furnishings, original art and more.
+              </p>
+              <a
+                href="https://acehotel.com/new-orleans/?gclid=EAIaIQobChMI4Iu63rHF_QIVCuR3Ch38bQLPEAAYAiAAEgJMPPD_BwE"
+                target="_blank"
+                >CLICK HERE</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="/assets/img/Providers/hauntedMuseum.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Haunted Museum</h5>
+              <p class="card-text">
+                Haunted museum & Voodoo spirit shop in a documented 200 year old
+                French Quarter Haunted House! Museum tours by day, Ghost Hunts
+                by night!
+              </p>
+              <a href="https://thehauntedmuseum.com/">CLICK HERE</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="/assets/img/Providers/lousianeChildrenMuseum.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Louisiana Children's Museum</h5>
+              <p class="card-text">
+                When you make a child’s potential visible, wonderful things
+                happen.
+              </p>
+              <a href="https://lcm.org/">CLICK HERE</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="/assets/img/Providers/museumOfdeath.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Museum of Death</h5>
+              <p class="card-text">
+                The new museum branch will have around 12,000 square metres of
+                space, which will allow more of the collection to be displayed.
+              </p>
+              <a href="http://www.museumofdeath.net/">CLICK HERE</a>
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <div class="row align-items-end">
+        <div class="col">
+          <div class="card">
+            <img
+              src="/assets/img/Providers/walkOns.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Walk-On's Sports Bistreaux</h5>
+              <p class="card-text">
+                Grab a bite with your family at Walk On's Restaurant and Sports
+                Bistreaux. Check out our menu of burgers, sandwiches, salads &
+                Cajun cuisine.
+              </p>
+              <a href="https://walk-ons.com/">CLICK HERE</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="/assets/img/Providers/sheraton.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Sheraton New Orleans Hotel</h5>
+              <p class="card-text">
+                Directly across from the famed French Quarter and steps from the
+                CBD, Sheraton New Orleans Hotel welcomes you to Louisiana with
+                pet-friendly rooms.
+              </p>
+              <a
+                href="https://www.marriott.com/en-us/hotels/msyis-sheraton-new-orleans-hotel/overview/"
+                target="_blank"
+                >CLICK HERE</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="/assets/img/Providers/ritsz.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">The Ritz-Carlton, New Orleans</h5>
+              <p class="card-text">
+                Within a historic beaux arts building in New Orleans French
+                Quarter ,a hotel offers luxury with a local touch.
+              </p>
+              <a href="https://www.ritzcarlton.com/en/hotels/new-orleans"
+                >CLICK HERE</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="/assets/img/Providers/premiumParking.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Premium Parking - P402</h5>
+              <p class="card-text">The leader in gateless digital parking.</p>
+              <a href="https://www.premiumparking.com/P402">CLICK HERE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <!-------------------------------------------------------------------------------------------------FAQ---------------------------------------------------------------------------------------------->
 
-
-	<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-
-				<img src="/assets/img/1.jpg" class="d-block w-100" alt="...">
-				<div class="sliderText">
-					<h1 class="display-1">Mardi Gras</h1>
-					<h2>Mardi Gras is French for "Fat Tuesday", reflecting the practice of the last night of
-						eating rich, fatty foods before the ritual Lenten sacrifices and fasting of the Lenten season.</h2>
-				</div>
-			</div>
-
-			<div class="carousel-item">
-				<img src="/assets/img/2.5.jpg" class="d-block w-100" alt="...">
-				<div class="sliderText2">
-					<h1 class="display-1">Restaurants</h1>
-					<h2>Feasting is a big part of Carnival celebrations—and we don't just mean king cake! Before Lent, get
-						your fill of fresh seafood, po-boys, gumbo, jambalaya and other Cajun and Creole specialties. It
-						wouldn't be listed below if we didn't recommend it.</h2>
-
-				</div>
-			</div>
-			<div class="carousel-item">
-				<img src="/assets/img/3.jpg" class="d-block w-100" alt="...">
-				<div class="sliderText3">
-					<h1 class="display-1">Hotels</h1>
-					<h2>While you probably won't be spending much time in your hotel, you will need a comfortable, safe
-						place
-						to rest up between parades. Some of these properties are near the parade route, while others are
-						closer to the French Quarter fun. All come highly recommended by the staff here at
-						MardiGrasNewOrleans.com.</h2>
-				</div>
-			</div>
-			<div class="carousel-item">
-				<img src="/assets/img/4.jpg" class="d-block w-100" alt="...">
-				<div class="sliderText4">
-					<h1 class="display-1">Attractions</h1>
-					<h2>While you're in town for Mardi Gras, remember there's more to Carnival than catching beads. Get
-						caught up in the unique traditions and history behind the "Greatest Free Show on Earth” at these
-						attractions, museums and restaurants. Try on authentic Mardi Gras costumes, climb aboard a real
-						float,
-						and celebrate the designers and artists who pull it all off year after year after year.</h2>
-				</div>
-			</div>
-		</div>
-		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-			data-bs-slide="prev">
-			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			<span class="visually-hidden">Previous</span>
-		</button>
-		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-			data-bs-slide="next">
-			<span class="carousel-control-next-icon" aria-hidden="true"></span>
-			<span class="visually-hidden">Next</span>
-		</button>
-	</div>
-
-	<!------------------------------------ About Mayor --------------------------------------------->
-
-	<div id="aboutUs" class="about_us container-fluid ">
-
-		<div class="row">
-			<div id="mayorImg" class="col-sm ">
-				<img id="laToya" src="/assets/img/mayor.png" class="img-fluid" alt="mayor photo">
-			</div>
-			<div id="mayorText" class="col-lg">
-				<section>
-					<h3 class="display-5">Mayor of great city New Orleans about Mardi Gras</h3>
-					<p>I invite you to visit our city to experience the
-						excitement of Mardi Gras!
-
-						Mayor of New Orleans
-						The Carnival season officially begins each year on Jan. 6 -- the Feast of the Epiphany, also called
-						Twelfth Night or Kings' Day.Traditional balls are held in the weeks leading up to the big event...
-					</p>
-					<a href="/aboutMardiGras.html">Click Here</a>
-				</section>
-			</div>
-		</div>
-	</div>
-
-	<!-------------------------------------------------------------------------------------------------Providers---------------------------------------------------------------------------------------------->
-	<div id="id_providers1" class="container-fluid  col-sm-6 ">
-		<div class="row align-items-start ">
-			<div class="col">
-				<div class="card">
-					<img src="/assets/img/Providers/ace.jpg" class="card-img-top" alt="...">
-					<div class="card-body">
-						<h5 class="card-title">Ace Hotel NOLA </h5>
-						<p class="card-text">Home to well-appointed rooms, event spaces, a restaurant, rooftop bar and all-day
-							café. Well-appointed rooms with breathing room. Custom furnishings, original art and more.
-						</p>
-						<a href="https://acehotel.com/new-orleans/?gclid=EAIaIQobChMI4Iu63rHF_QIVCuR3Ch38bQLPEAAYAiAAEgJMPPD_BwE"
-							target="_blank">CLICK HERE</a>
-					</div>
-				</div>
-			</div>
-			<div class="col">
-				<div class="card">
-					<img src="/assets/img/Providers/hauntedMuseum.jpg" class="card-img-top" alt="...">
-					<div class="card-body">
-						<h5 class="card-title">Haunted Museum</h5>
-						<p class="card-text">Haunted museum & Voodoo spirit shop in a documented 200 year old French Quarter
-							Haunted House! Museum tours by day, Ghost Hunts by night!
-						</p>
-						<a href="https://thehauntedmuseum.com/">CLICK HERE</a>
-					</div>
-				</div>
-			</div>
-			<div class="col">
-				<div class="card">
-					<img src="/assets/img/Providers/lousianeChildrenMuseum.jpg" class="card-img-top" alt="...">
-					<div class="card-body">
-						<h5 class="card-title">Louisiana Children's Museum</h5>
-						<p class="card-text">When you make a child’s potential visible, wonderful things happen.
-						</p>
-						<a href="https://lcm.org/">CLICK HERE</a>
-					</div>
-				</div>
-			</div>
-			<div class="col">
-				<div class="card">
-					<img src="/assets/img/Providers/museumOfdeath.jpg" class="card-img-top" alt="...">
-					<div class="card-body">
-						<h5 class="card-title">Museum of Death </h5>
-						<p class="card-text">The new museum branch will have around 12,000 square metres of space, which will
-							allow more of the collection to be displayed.
-						</p>
-						<a href="http://www.museumofdeath.net/">CLICK HERE</a>
-					</div>
-				</div>
-			</div>
-		</div>
-
-
-		<div class="row align-items-end">
-			<div class="col">
-				<div class="card">
-					<img src="/assets/img/Providers/walkOns.jpg" class="card-img-top" alt="...">
-					<div class="card-body">
-						<h5 class="card-title"> Walk-On's Sports Bistreaux</h5>
-						<p class="card-text">Grab a bite with your family at Walk On's Restaurant and Sports Bistreaux. Check
-							out our menu of burgers, sandwiches, salads & Cajun cuisine.
-						</p>
-						<a href="https://walk-ons.com/">CLICK HERE</a>
-					</div>
-				</div>
-			</div>
-			<div class="col">
-				<div class="card">
-					<img src="/assets/img/Providers/sheraton.jpg" class="card-img-top" alt="...">
-					<div class="card-body">
-						<h5 class="card-title">Sheraton New Orleans Hotel</h5>
-						<p class="card-text">Directly across from the famed French Quarter and steps from the CBD, Sheraton
-							New Orleans Hotel welcomes you to Louisiana with pet-friendly rooms.
-						</p>
-						<a href="https://www.marriott.com/en-us/hotels/msyis-sheraton-new-orleans-hotel/overview/"
-							target="_blank">CLICK HERE</a>
-					</div>
-				</div>
-			</div>
-			<div class="col">
-				<div class="card">
-					<img src="/assets/img/Providers/ritsz.jpg" class="card-img-top" alt="...">
-					<div class="card-body">
-						<h5 class="card-title">The Ritz-Carlton, New Orleans</h5>
-						<p class="card-text">
-							Within a historic beaux arts building in New Orleans French Quarter ,a hotel offers luxury with a
-							local touch.
-						</p>
-						<a href="https://www.ritzcarlton.com/en/hotels/new-orleans">CLICK HERE</a>
-					</div>
-				</div>
-			</div>
-			<div class="col">
-				<div class="card">
-					<img src="/assets/img/Providers/premiumParking.jpg" class="card-img-top" alt="...">
-					<div class="card-body">
-						<h5 class="card-title">Premium Parking - P402</h5>
-						<p class="card-text">The leader in gateless digital parking.
-						</p>
-						<a href="https://www.premiumparking.com/P402">CLICK HERE</a>
-					</div>
-				</div>
-			</div>
-		</div>
-
-	</div>
-
-
-	<!-------------------------------------------------------------------------------------------------FAQ---------------------------------------------------------------------------------------------->
-
-
-	<footer class="border-top pt-3 bg-white center">
-		<p class="text-dark">Created by Vladlen Krash &copy;</p>
-		<a class="navbar-brand" href="#"><img src="/assets/logo/BLACK Logo.png" alt="" width="100" height="100"></a>
-	</footer>
-
-
-
-</body>
-
+    <footer class="border-top pt-3 bg-white center">
+      <p class="text-dark">Created by Vladlen Krash &copy;</p>
+    </footer>
+  </body>
 </html>

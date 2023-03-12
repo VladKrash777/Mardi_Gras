@@ -7,11 +7,10 @@
 
 #mayorText {
 	display: flex;
-
 	align-items: center;
-	margin-right: 500px;
+	padding: 20px 40px;	
 	font-family: $fontFamilyText;
-	font-size: 1.3em;
+	font-size: 2em;
 
 	h3 {
 		font-family: $fontFamily1;
@@ -25,32 +24,49 @@
 	}
 }
 
-#mayorImg {
+.row{
+
+	background-size: 400px;
 	display: flex;
 	justify-content: center;
-	align-items: center;
-
-	.row {
-		width: 360px;
-	}
-
-
+	align-items: flex-start;
 }
 
+// #mayorImg {
+// 	display: flex;
+// 	justify-content: center;
+// 	align-items: center;
 
+// 	.row {
+// 		width: 360px;
+// 	}
+// }
+
+
+
+
+@media (max-width:450px) {
+	#mayorText{
+		font-size: 18px;
+	}
+}
 @media (min-width:250px) and (max-width:550px) {
 	.row {
-		width: 100%;
-
+		display: flex;
+		align-items: center;	
 	}
-
-	#aboutUs {
-
+	.row:nth-child(odd) {
+		flex-direction: column;
 	}
-
-
-#laToya {
-	
-}
+	.row:nth-child(even) {
+		flex-direction: column-reverse;
+	}
+	.col-8{
+		width: 100% !important;
+		margin-top:30px !important;
+	}
+	.col-4 {
+		width: 100% !important;
+	}
 
 }
